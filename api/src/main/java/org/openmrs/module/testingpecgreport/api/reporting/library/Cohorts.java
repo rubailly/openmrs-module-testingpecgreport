@@ -130,6 +130,10 @@ public class Cohorts {
 		return allAgeRanges;
 	}
 	
+	/*
+	 * Just to demo that you can use SQL queries for cohort definitions.
+	 * You can achieve the here using a Program Enrollment Query and a VisitCohortDefinition from the reporting module
+	 */
 	public static SqlCohortDefinition getPatientEnrolledInProgramWithUPECVisit(Program HIVProgram, VisitType UPECVisitType) {
 		SqlCohortDefinition patientEnrolledInProgramWithUPECVisit = new SqlCohortDefinition();
 		patientEnrolledInProgramWithUPECVisit.setName("patientWithHIVOutcomes");
