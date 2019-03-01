@@ -132,7 +132,7 @@ public class Cohorts {
 	
 	/*
 	 * Just to demo that you can use SQL queries for cohort definitions.
-	 * You can achieve the here using a Program Enrollment Query and a VisitCohortDefinition from the reporting module
+	 * You can achieve the same here using a Program Enrollment Query and a VisitCohortDefinition from the reporting module
 	 */
 	public static SqlCohortDefinition getPatientEnrolledInProgramWithUPECVisit(Program HIVProgram, VisitType UPECVisitType) {
 		SqlCohortDefinition patientEnrolledInProgramWithUPECVisit = new SqlCohortDefinition();
